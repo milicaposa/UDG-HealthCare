@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.col-2 {
+  width: 48%;
+}
+
+.col-2-full {
+	width: 50%;
+}
+
+.col-3 {
+  width: 24%;
+}
+
+.col-4 {
+  width: 32%;
+  flex-basis: auto;
+}
